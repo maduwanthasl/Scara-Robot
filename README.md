@@ -2,11 +2,9 @@
 
 # SCARA Robot (PRRR Configuration)
 
-<div style="text-align: center;">
-    <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/1.jpg" alt="SCARA Robot" width="50%">
-</div>
-
-
+<p align="center">
+  <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/1.jpg" alt="SCARA Robot" width="50%">
+</p>
 *Figure 1: Final SCARA Robot*
 
 ## Overview  
