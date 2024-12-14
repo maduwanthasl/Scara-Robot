@@ -27,10 +27,12 @@ The robot is controlled using an Arduino Uno and stepper motors through a CNC sh
 ## 2. Final Outcome  
 The SCARA robot successfully performs pick-and-place tasks with smooth motion and precise control.  
 
-![Final Robot](https://github.com/maduwanthasl/Scara-Robot/blob/main/Videos/Pick%20and%20place/Pick%20and%20place.mp4)  
+[![Video Preview](https://via.placeholder.com/600x400)](https://github.com/user-attachments/assets/54862c45-d594-4989-866d-df16e7200ece)
+
 *Figure 2: Final Robot Outcome*  
 
 ---
+
 
 ## 3. Building Process  
 
@@ -53,6 +55,8 @@ The revolute joint enables horizontal rotation for broader workspace coverage.
 These joints control finer rotations, including gripper orientation for precise object handling.  
 
 ![Joint 3 and 4](insert-joint3and4-photo-link-here)  
+
+
 
 ---
 
