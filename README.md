@@ -27,7 +27,7 @@ The robot is controlled using an Arduino Uno and stepper motors through a CNC sh
 ## 2. Final Outcome  
 The SCARA robot successfully performs pick-and-place tasks with smooth motion and precise control.  
 
-![Final Robot](https://uniofmora-my.sharepoint.com/:v:/g/personal/maduwanthalhh_20_uom_lk/EcbVCx1UGktHjuAvCzXrOrEBrMkzmncUZcdw_dYVqHNYQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yIhCYn)  
+![Final Robot](https://github.com/maduwanthasl/Scara-Robot/blob/main/Videos/Pick%20and%20place/Pick%20and%20place.mp4)  
 *Figure 2: Final Robot Outcome*  
 
 ---
