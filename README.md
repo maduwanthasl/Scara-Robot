@@ -51,6 +51,16 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
 
 
 ### **3.2 Joint 1: Prismatic Joint**  
+
+| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/3d%20printed%20parts.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Assembled%203d%20printed%20parts.png) |
+|---|---|
+| Some 3D printed parts | Assembled Joints | 
+| ![pic 6 (3)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Joint%203%20gear.png) | ![pic 6 (1)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Joint%203%20.png)|
+| Joint 3 Gears | Joint 3 Assembled |
+<p align="center">
+    <em>Figure 4: 3D printed parts </em>
+</p>
+
 The prismatic joint allows vertical motion and is powered by a lead screw mechanism coupled with a stepper motor.  
 
 ![Joint 1](insert-joint1-photo-link-here)  
