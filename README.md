@@ -37,9 +37,15 @@ The SCARA robot successfully performs pick-and-place tasks with smooth motion an
 ## 3. Building Process  
 
 ### **3.1 Frame**  
-The frame provides stability for the entire setup. Made of lightweight aluminum, it ensures durability and precise movements.  
+In the SCARA robot building process, I first created a metal frame. I used a metal U-bar and a circular-shaped plate, soldering them as shown in Figure 3. To hold the Z-axis motor, I also soldered a plate. Afterward, I added screw holes to the grill and created two screw holes on the Z-holder plate. Additionally, I applied a coat of paint to resist metal corrosion.  
 
-![Frame](insert-frame-photo-link-here)  
+I also created screw holes in the U-bar to secure the aluminum extrusion. After that, I added a 40×20 aluminum extrusion to the U-bar using M5 20mm screws. This aluminum extrusion ensures smooth movement of the joints along the Z-axis.  
+
+
+| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame%20after%20cort%20of%20paint.jpg) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Metal%20frame%20with%20z%20motor.jpg) |
+|---|---|
+| Metal frame | Metal frame with z motor|
+
 
 ### **3.2 Joint 1: Prismatic Joint**  
 The prismatic joint allows vertical motion and is powered by a lead screw mechanism coupled with a stepper motor.  
