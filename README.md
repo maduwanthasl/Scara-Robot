@@ -134,7 +134,60 @@ To test all motors, I used simple Arduino code to verify their operation. This h
 The homing sequence ensures that the robot starts from a known position:  
 1. The prismatic joint retracts to the lowest position.  
 2. Each revolute joint rotates to its home angle.  
-3. Limit switches provide feedback to confirm positions.  
+3. Limit switches provide feedback to confirm positions.
+
+```bash
+void homing() {
+  // Homing Stepper3
+  while (digitalRead(limitSwitch3) != 1) {
+    stepper3.setSpeed(-1100);
+    stepper3.runSpeed();
+    stepper3.setCurrentPosition(-1580); // When limit switch pressed set position to 0 steps
+  }
+  delay(20);
+
+  stepper3.moveTo(0);
+  while (stepper3.currentPosition() != 0) {
+    stepper3.run();
+  }
+
+  // Homing Stepper2
+  while (digitalRead(limitSwitch2) != 1) {
+    stepper2.setSpeed(1300);
+    stepper2.runSpeed();
+    stepper2.setCurrentPosition(4350); // When limit switch pressed set position to -5440 steps
+  }
+  delay(20);
+
+  stepper2.moveTo(0);
+  while (stepper2.currentPosition() != 0) {
+    stepper2.run();
+  }
+
+  // Homing Stepper1
+  while (digitalRead(limitSwitch1) != 1) {
+    stepper1.setSpeed(-1200);
+    stepper1.runSpeed();
+    stepper1.setCurrentPosition(-5000); // When limit switch pressed set position to 0 steps
+  }
+  delay(20);
+  stepper1.moveTo(0);
+  while (stepper1.currentPosition() != 0) {
+    stepper1.run();
+  }
+  // Homing Stepper4
+  while (digitalRead(limitSwitch4) != 1) {
+    stepper4.setSpeed(-1500);
+    stepper4.runSpeed();
+    stepper4.setCurrentPosition(-8500); // When limit switch pressed set position to 0 steps
+  }
+  delay(20);
+  // stepper4.moveTo(0);
+  while (stepper4.currentPosition() != 0) {
+    stepper4.run();
+  }
+}
+```
 
 ---
 
