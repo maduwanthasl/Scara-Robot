@@ -87,6 +87,15 @@ For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pull
 ---
 
 ## 4. Wiring  
+
+<p align="center">
+  <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Wiring.png" width="50%">
+</p>
+<p align="center">
+    <em>Figure 5: SCARA Robot main wiring diagram  </em>
+</p>
+<p align="center"> <em> Credit - how to mechatronics </em> </p>
+
 The wiring connects stepper motors, the CNC shield, and the Arduino Uno. Important points:  
 - Use shielded cables for stepper motors to reduce noise.  
 - Ensure correct polarity for stepper motor connections to avoid direction reversal.  
