@@ -45,6 +45,9 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame%20with%20z%20motor.png) |
 |---|---|
 | Metal frame | Metal frame with z motor|
+<p align="center">
+    <em>Figure 3: Metal Frame </em>
+</p>
 
 
 ### **3.2 Joint 1: Prismatic Joint**  
