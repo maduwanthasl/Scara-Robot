@@ -67,14 +67,14 @@ The joints of the SCARA robot are critical for achieving precise and smooth moti
 The main part of building this robot involved printing the 3D-printed components. Printing all the parts required over 100 hours using white PLA+ material. These parts included gears, mounting plates, and structural supports.  
 
 #### **3.2.2 Linear Motion System**  
-After printing the parts, I used 8mm diameter linear motion rods to construct the sliding mechanism. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 5:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
+After printing the parts, I used 8mm diameter linear motion rods to construct the gear mechanism in the joints. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 16:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
 
 To achieve smoother motion, I added 608RS bearings. For added friction with the gears, I modified small 8mm linear rods into a D shape using a grinder. By integrating suitable GT2 6mm closed-loop timing belts, the movement of the joints became more stable and reliable.  
 
 Additionally, I added end-stop components made from 3D-printed parts. These help the robot identify when the arm has returned to its home position.  
 
-#### **3.2.3 Joint 3 Challenges**  
-Initially, I planned to use a small NEMA 17 stepper motor for Joint 3. However, due to stock unavailability in Sri Lanka, this motor was not included in the design.  
+#### **3.2.3 Challenges**  
+The main challenge was ensuring that all belts were properly tightened and controllable to maintain smooth and precise motion throughout the joints.   
 
 #### **3.2.4 Gripper Mechanism**  
 The gripper is designed to handle objects of various shapes. It features a replaceable "hold cube" part that can be customized to grip different items. The gripper is powered by an MG 995 metal gear servo motor, which is well-suited for this type of application.  
@@ -82,8 +82,7 @@ The gripper is designed to handle objects of various shapes. It features a repla
 #### **3.2.5 Sliding Mechanism**  
 For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pulley Kit**, which enabled smoother vertical motion. The Z-plate and pulley system significantly improved the performance of the prismatic joint.  
 
-
-
+[![Video Preview](https://via.placeholder.com/600x400)](https://github.com/user-attachments/assets/a7ca6ed6-09e0-49c2-beae-47ccfda04f0f)
 
 ---
 
@@ -114,15 +113,18 @@ The robot is programmed to pick objects from a defined source and place them in 
 ---
 
 ## 7. GUI  
+
+<p align="center">
+  <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/GUI.jpg" alt="SCARA Robot" width="50%">
+</p>
+
 A user-friendly GUI is developed using **Processing**.  
 
 ### **Features**  
 - Joint control via sliders and buttons.  
 - Position control for end-effector coordinates.  
 - Real-time feedback for joint angles and positions.  
-- Gripper control for opening/closing actions.  
-
-![GUI](insert-gui-photo-link-here)  
+- Gripper control for opening/closing actions.    
 
 ---
 
