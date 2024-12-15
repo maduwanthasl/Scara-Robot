@@ -191,6 +191,8 @@ void homing() {
   }
 }
 ```
+**Homing** - https://github.com/maduwanthasl/Scara-Robot/blob/main/Videos/Homing%20Function/Homing%20Function.mp4
+
 
 ---
 
