@@ -50,7 +50,7 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
 </p>
 
 
-### **3.2 Joint 1: Prismatic Joint**  
+### **3.2 Joints**  
 
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/3d%20printed%20parts.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Assembled%203d%20printed%20parts.png) |
 |---|---|
@@ -61,19 +61,27 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
     <em>Figure 4: 3D printed parts </em>
 </p>
 
-The prismatic joint allows vertical motion and is powered by a lead screw mechanism coupled with a stepper motor.  
+The joints of the SCARA robot are critical for achieving precise and smooth motion. Below is a detailed breakdown of the joint-building process.  
 
-![Joint 1](insert-joint1-photo-link-here)  
+#### **3.2.1 3D Printed Parts**  
+The main part of building this robot involved printing the 3D-printed components. Printing all the parts required over 100 hours using white PLA+ material. These parts included gears, mounting plates, and structural supports.  
 
-### **3.3 Joint 2: Revolute Joint**  
-The revolute joint enables horizontal rotation for broader workspace coverage.  
+#### **3.2.2 Linear Motion System**  
+After printing the parts, I used 8mm diameter linear motion rods to construct the sliding mechanism. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 5:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
 
-![Joint 2](insert-joint2-photo-link-here)  
+To achieve smoother motion, I added 608RS bearings. For added friction with the gears, I modified small 8mm linear rods into a D shape using a grinder. By integrating suitable GT2 6mm closed-loop timing belts, the movement of the joints became more stable and reliable.  
 
-### **3.4 Joints 3 and 4**  
-These joints control finer rotations, including gripper orientation for precise object handling.  
+Additionally, I added end-stop components made from 3D-printed parts. These help the robot identify when the arm has returned to its home position.  
 
-![Joint 3 and 4](insert-joint3and4-photo-link-here)  
+#### **3.2.3 Joint 3 Challenges**  
+Initially, I planned to use a small NEMA 17 stepper motor for Joint 3. However, due to stock unavailability in Sri Lanka, this motor was not included in the design.  
+
+#### **3.2.4 Gripper Mechanism**  
+The gripper is designed to handle objects of various shapes. It features a replaceable "hold cube" part that can be customized to grip different items. The gripper is powered by an MG 995 metal gear servo motor, which is well-suited for this type of application.  
+
+#### **3.2.5 Sliding Mechanism**  
+For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pulley Kit**, which enabled smoother vertical motion. The Z-plate and pulley system significantly improved the performance of the prismatic joint.  
+
 
 
 
