@@ -100,16 +100,57 @@ A user-friendly GUI is developed using **Processing**.
 ---
 
 ## 8. Bill of Materials  
-| Item                  | Quantity | Description                      |  
-|-----------------------|----------|----------------------------------|  
-| Aluminum Frame        | 1        | Main structure                  |  
-| Stepper Motors        | 4        | NEMA 17 motors                  |  
-| Servo Motor           | 1        | For gripper control             |  
-| CNC Shield            | 1        | Stepper motor driver interface  |  
-| Arduino Uno           | 1        | Microcontroller                 |  
-| Power Supply          | 1        | 12V, 5A                        |  
-| Bearings              | 4        | For smooth joint motion         |  
-| Screws and Nuts       | -        | For assembly                    |  
+
+---
+
+### Purchase Details  
+| **Buying Stores** | **Payable To** | **Invoice ** | **Date**       |  
+|-------------------|----------------|---------------|----------------|  
+| Zenix            | 11,890         |                |                |  
+| Tronic LK        |                |               |                |  
+| Asian            |                |               |                |  
+| Unitech          |                |               |                |  
+
+---
+
+### Itemized List of Components  
+| **Description**                                                                                                                                                           | **Qty** | **Unit Price** | **Total Price** |  
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|----------------|-----------------|  
+| 17HS4401 NEMA 17 Stepper with wire 0.4Nm (D Shaft 5mm)                                                                                                                   | 1       | $2,300.00      | $2,300.00       |  
+| 2040 V Slot Aluminium Extrusion Profile Black 1m (Basic Quality) - Length (mm): 1000mm                                                                                   | 1       | $3,900.00      | $3,900.00       |  
+| GT2 (Brown Anti-Slip Toothed Cloth, Rubber with Fiberglass) 6mm Open Timing Belt 1m                                                                                      | 2       | $350.00        | $700.00         |  
+| GT2 16T 16 Teeth 5mm Bore 6mm Width Timing Pulley T16B5W6 - Color: Silver                                                                                                | 1       | $120.00        | $120.00         |  
+| GT2 20T 20 Teeth 5mm Bore 6mm Width Timing Pulley T20B5W6 - Color: Silver                                                                                                | 3       | $120.00        | $360.00         |  
+| GT2 20T 20 Teeth 8mm Bore 6mm Width Timing Pulley T20B8W6 - Color: Silver                                                                                                | 1       | $120.00        | $120.00         |  
+| GT2 6mm Closed Loop Timing Belt 200mm                                                                                                                                     | 5       | $190.00        | $950.00         |  
+| GT2 6mm Closed Loop Timing Belt 400mm                                                                                                                                     | 2       | $280.00        | $560.00         |  
+| Openbuilds (Type A2 with Eccentric Spacer) POM Wheel Pulley Kit for 2020 V Slot Aluminum Profiles                                                                        | 8       | $360.00        | $2,880.00       |  
+| 17HS4401 NEMA 17 Stepper with wire 0.4Nm (D Shaft 5mm)                                                                                                                   | 3       | $2,300.00      | $4,600.00       |  
+| CNC Shield V3 Expansion Board for Engraving Machine                                                                                                                      | 1       | $490.00        | $490.00         |  
+| 8mm Insulated Braided Sleeve High Temperature Tube 1m                                                                                                                    | 1       | $120.00        | $120.00         |  
+| GT2 16T 16 Teeth 5mm Bore 10mm Width Timing Pulley T16B5W10                                                                                                              | 1       | $160.00        | $160.00         |  
+| GT2 20T (With Teeth) 5mm Bore 6mm Width Idler Timing Pulley B5W6 - Color: Black                                                                                          | 1       | $260.00        | $260.00         |  
+| GT2 16T 16 Teeth 5mm Bore 6mm Width Timing Pulley T16B5W6 - Color: Silver                                                                                                | 2       | $120.00        | $240.00         |  
+| Arduino UNO Original Development                                                                                                                                         | 1       | $2,510.00      | $2,510.00       |  
+| DRV8825 Stepper Motor Driver for CNC 3D Printer                                                                                                                          | 4       | $520.00        | $2,080.00       |  
+| Cable Tie 15-inch 100 pcs                                                                                                                                                 | 1       | $300.00        | $300.00         |  
+| M5 35mm Stainless Steel Hex Flat Socket Head Countersunk Screw                                                                                                           | 12      | $70.00         | $840.00         |  
+| M5 16mm Stainless Steel Hex Flat Socket Head Countersunk Screw                                                                                                           | 6       | $40.00         | $240.00         |  
+| M3 20mm Countersunk Bolt                                                                                                                                                  | 12      | $5.00          | $60.00          |  
+| M4 15mm Countersunk Bolt                                                                                                                                                  | 18      | $10.00         | $180.00         |  
+| Black 10mm 1 Bag (13.5m/Bag) Spiral Wire Wrapping Tube Cable Sleeves                                                                                                      | 1       | $800.00        | $800.00         |  
+| 12V 10A Power Supply                                                                                                                                                      | 1       | $2,200.00      | $2,200.00       |  
+| Jumper Cables                                                                                                                                                             | 1       | $140.00        | $140.00         |  
+| Other                                                                                                                                                                    | 1       | $2,000.00      | $2,000.00       |  
+
+---
+
+### **Total Cost**  
+| **Subtotal** | $29,110.00 |  
+|--------------|------------|  
+| **Adjustments** | $0.00 |  
+| **Final Total** | **$29,110.00** |  
+
 
 ---
 
