@@ -315,5 +315,6 @@ The `code` folder contains:
 Feel free to raise issues or contribute improvements to this project!
 
 
-![image](https://github.com/user-attachments/assets/e73a0e8b-2da9-4d07-ae71-0554e8a4b6c6)
+[image](
+https://github.com/user-attachments/assets/e73a0e8b-2da9-4d07-ae71-0554e8a4b6c6)
 
