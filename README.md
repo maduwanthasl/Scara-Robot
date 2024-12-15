@@ -130,13 +130,16 @@ To test all motors, I used simple Arduino code to verify their operation. This h
 
 ---
 
-## 5. Homing Sequence  
+### **5. Homing Sequence**  
 The homing sequence ensures that the robot starts from a known position:  
-1. The prismatic joint retracts to the lowest position.  
-2. Each revolute joint rotates to its home angle.  
-3. Limit switches provide feedback to confirm positions.
 
-```bash
+- The prismatic joint retracts to the lowest position.  
+- Each revolute joint rotates to its home angle.  
+- Limit switches provide feedback to confirm positions.  
+
+As you can see in the video, the homing sequence begins with the gripper motor (joint 3). To determine the homing position, I used limit switches along with the following code:  
+
+```cpp
 void homing() {
   // Homing Stepper3
   while (digitalRead(limitSwitch3) != 1) {
