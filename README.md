@@ -113,15 +113,18 @@ The robot is programmed to pick objects from a defined source and place them in 
 ---
 
 ## 7. GUI  
+
+<p align="center">
+  <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/GUI.jpg" alt="SCARA Robot" width="50%">
+</p>
+
 A user-friendly GUI is developed using **Processing**.  
 
 ### **Features**  
 - Joint control via sliders and buttons.  
 - Position control for end-effector coordinates.  
 - Real-time feedback for joint angles and positions.  
-- Gripper control for opening/closing actions.  
-
-![GUI](insert-gui-photo-link-here)  
+- Gripper control for opening/closing actions.    
 
 ---
 
