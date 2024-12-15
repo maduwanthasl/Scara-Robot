@@ -95,11 +95,38 @@ For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pull
     <em>Figure 5: SCARA Robot main wiring diagram  </em>
 </p>
 <p align="center"> <em> Credit - how to mechatronics </em> </p>
+ 
+The wiring connects stepper motors, the CNC shield, and the Arduino Uno. Here are the main considerations and steps followed:  
 
-The wiring connects stepper motors, the CNC shield, and the Arduino Uno. Important points:  
-- Use shielded cables for stepper motors to reduce noise.  
-- Ensure correct polarity for stepper motor connections to avoid direction reversal.  
-- Power supply: A 12V DC supply powers the entire system.  
+### **4.1 Motor Silence and Calibration**  
+In wiring, I primarily focused on reducing motor noise. To achieve smooth motor operation, the current limit of the motor drivers was carefully adjusted. This calibration ensures precise motor activation. Setting an incorrect value can cause the motor drivers to overheat and potentially damage them. To further enhance motor precision, I adjusted the precision selector to 1/4 or 1/8 microstepping.
+
+### **4.2 Connections and Testing**  
+I connected the motor wiring as shown in the diagram and tested the connections with an oscilloscope and multimeter. Limit switches were placed at the corners of the joints' movement range to allow maximum rotational angles. After placing the limit switches, I assigned the pins for X+, Y+, Z+, and coolant functionalities.  
+
+### **4.3 Servo Motor Powering**  
+Since servo motors require a stable current, I initially tested them using the Arduino Uno with the CNC shield. However, the servo motor only received 3V from this setup, which was insufficient. To address this, I powered the servo motor separately using a 5V power supply.  
+
+### **4.4 Power Supply Configuration**  
+To power the entire system, which includes:  
+- Four NEMA 17 stepper motors  
+- Arduino Uno with CNC shield  
+- Four motor drivers (DRV8825)  
+- A servo motor  
+
+I decided to use a 12V 10A power supply. A 12V 5A power supply would not have been sufficient to run all motors simultaneously.  
+
+### **4.5 Cable Management**  
+For clean and organized wiring, I used “Spiral Wire Wrapping Tube Cable Sleeves” and secured them with tie tags. This arrangement keeps the wires neat and minimizes clutter.  
+
+### **4.6 Testing**  
+To test all motors, I used simple Arduino code to verify their operation. This helped ensure that the motors, limit switches, and control pins were functioning as expected.  
+
+### **4.7 Key Points**  
+- **Shielded cables** were used for stepper motors to reduce electrical noise.  
+- Correct polarity was ensured to avoid reversing motor directions.  
+- The 12V DC power supply provided reliable power for the entire system.  
+ 
 
 ---
 
