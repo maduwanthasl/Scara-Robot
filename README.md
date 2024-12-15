@@ -42,9 +42,12 @@ In the SCARA robot building process, I first created a metal frame. I used a met
 I also created screw holes in the U-bar to secure the aluminum extrusion. After that, I added a 40×20 aluminum extrusion to the U-bar using M5 20mm screws. This aluminum extrusion ensures smooth movement of the joints along the Z-axis.  
 
 
-| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame%20after%20cort%20of%20paint.jpg) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Metal%20frame%20with%20z%20motor.jpg) |
+| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/metal%20frame%20with%20z%20motor.png) |
 |---|---|
 | Metal frame | Metal frame with z motor|
+<p align="center">
+    <em>Figure 3: Metal Frame </em>
+</p>
 
 
 ### **3.2 Joint 1: Prismatic Joint**  
