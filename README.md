@@ -82,8 +82,7 @@ The gripper is designed to handle objects of various shapes. It features a repla
 #### **3.2.5 Sliding Mechanism**  
 For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pulley Kit**, which enabled smoother vertical motion. The Z-plate and pulley system significantly improved the performance of the prismatic joint.  
 
-
-
+[![Video Preview](https://via.placeholder.com/600x400)](https://github.com/user-attachments/assets/a7ca6ed6-09e0-49c2-beae-47ccfda04f0f)
 
 ---
 
