@@ -67,14 +67,14 @@ The joints of the SCARA robot are critical for achieving precise and smooth moti
 The main part of building this robot involved printing the 3D-printed components. Printing all the parts required over 100 hours using white PLA+ material. These parts included gears, mounting plates, and structural supports.  
 
 #### **3.2.2 Linear Motion System**  
-After printing the parts, I used 8mm diameter linear motion rods to construct the sliding mechanism. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 5:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
+After printing the parts, I used 8mm diameter linear motion rods to construct the gear mechanism in the joints. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 16:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
 
 To achieve smoother motion, I added 608RS bearings. For added friction with the gears, I modified small 8mm linear rods into a D shape using a grinder. By integrating suitable GT2 6mm closed-loop timing belts, the movement of the joints became more stable and reliable.  
 
 Additionally, I added end-stop components made from 3D-printed parts. These help the robot identify when the arm has returned to its home position.  
 
-#### **3.2.3 Joint 3 Challenges**  
-Initially, I planned to use a small NEMA 17 stepper motor for Joint 3. However, due to stock unavailability in Sri Lanka, this motor was not included in the design.  
+#### **3.2.3 Challenges**  
+The main challenge was ensuring that all belts were properly tightened and controllable to maintain smooth and precise motion throughout the joints.   
 
 #### **3.2.4 Gripper Mechanism**  
 The gripper is designed to handle objects of various shapes. It features a replaceable "hold cube" part that can be customized to grip different items. The gripper is powered by an MG 995 metal gear servo motor, which is well-suited for this type of application.  
