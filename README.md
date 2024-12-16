@@ -55,6 +55,11 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
 
 ### **3.2 Joints**  
 
+The joints of the SCARA robot are critical for achieving precise and smooth motion. Below is a detailed breakdown of the joint-building process.  
+
+#### **3.2.1 3D Printed Parts**  
+The main part of building this robot involved printing the 3D-printed components. Printing all the parts required over 100 hours using white PLA+ material. These parts included gears, mounting plates, and structural supports.  
+
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/3d%20printed%20parts.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Assembled%203d%20printed%20parts.png) |
 |---|---|
 | Some 3D printed parts | Assembled Joints | 
@@ -64,10 +69,6 @@ I also created screw holes in the U-bar to secure the aluminum extrusion. After 
     <em>Figure 4: 3D printed parts </em>
 </p>
 
-The joints of the SCARA robot are critical for achieving precise and smooth motion. Below is a detailed breakdown of the joint-building process.  
-
-#### **3.2.1 3D Printed Parts**  
-The main part of building this robot involved printing the 3D-printed components. Printing all the parts required over 100 hours using white PLA+ material. These parts included gears, mounting plates, and structural supports.  
 
 #### **3.2.2 Linear Motion System**  
 After printing the parts, I used 8mm diameter linear motion rods to construct the gear mechanism in the joints. To enhance torque, I incorporated 3D-printed gears into all joints. Most of the gear ratios were designed as 16:1, with some using a 4:1 ratio. These gears provided precise motion and controllable movements.  
