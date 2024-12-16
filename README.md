@@ -383,7 +383,20 @@ The Jacobian for the SCARA robot is given by:
 
 ---
 
+### **12. Gallery**  
+The gallery showcases the various stages of the robot's development, including 3D-printed parts, wiring, assembly, and testing.
 
+| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Robot_pic4.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Robot_pic3.png) |
+|---|---|
+| Adding All Joints | Adding wiring | 
+| ![pic 6 (3)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/robot_pic2.png) | ![pic 6 (1)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/robot_pic1.png)|
+| Angle 1 | Angle 2 |
+<p align="center">
+    <em>Figure 7: Build Journey</em>
+</p>
+
+
+---
 ## 11. References  
 - SCARA Robot Design Basics: [Link](https://en.wikipedia.org/wiki/SCARA)  
 - Arduino CNC Shield Documentation: [Link](https://www.aranacorp.com/en/using-an-arduino-cnc-shield-v3)  
