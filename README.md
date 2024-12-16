@@ -283,6 +283,13 @@ A user-friendly GUI is developed using **Processing**.
 ---
 
 ## **9. 3D Printed Parts**  
+
+| ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Full%20arm%20without%20wiring.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Arm%20without%20wiring.png) |
+|---|---|
+<p align="center">
+    <em>Figure 3: ARM without wiring </em>
+</p>
+
 The robot's design relies heavily on 3D-printed components, with over 100 hours of printing time invested to produce these parts. Each part was carefully designed to ensure functionality and precision:  
 
 - **Gears**: Over seven different types of gears were printed to enable precise torque transfer and smooth motion across the joints.  
