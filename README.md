@@ -15,10 +15,13 @@ This repository contains the design, build process, and control of a 4-DoF SCARA
 ---
 
 ## 1. Introduction  
-This SCARA robot is developed for industrial pick-and-place applications. The manipulator consists of:  
-- A **prismatic joint** for vertical motion.  
+This project focuses on building and analyzing a **SCARA (PRRR)** robot arm with **4 Degrees of Freedom (DoF)**. It combines both kinematic analysis and practical implementation, including calculations for forward kinematics, inverse kinematics, and Jacobian analysis. The project culminates in a demonstration where the robot performs precise pick-and-place tasks and can **hold objects weighing up to 0.8 kg**.
+
+**This SCARA robot is developed for industrial pick-and-place applications.**  
+The manipulator consists of:  
+- **A prismatic joint** for vertical motion.  
 - **Three revolute joints** for horizontal movements and rotation.  
-- A **gripper** for handling square and round objects.  
+- **A gripper** for handling square and round objects.  
 
 The robot is controlled using an Arduino Uno and stepper motors through a CNC shield. The GUI simplifies user interaction, making the robot versatile for various tasks.  
 
