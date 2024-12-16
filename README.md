@@ -270,16 +270,18 @@ A user-friendly GUI is developed using **Processing**.
 | M4 15mm Countersunk Bolt                                                                                                                                                  | 18      | Rs. 10.00      | Rs. 180.00      |  
 | Black 10mm 1 Bag (13.5m/Bag) Spiral Wire Wrapping Tube Cable Sleeves                                                                                                      | 1       | Rs. 800.00     | Rs. 800.00      |  
 | 12V 10A Power Supply                                                                                                                                                      | 1       | Rs. 2,200.00   | Rs. 2,200.00    |  
-| Jumper Cables                                                                                                                                                             | 1       | Rs. 140.00     | Rs. 140.00      |  
+| Jumper Cables                                                                                                                                                             | 1       | Rs. 140.00     | Rs. 140.00      | 
+| Bearing 608-RS			                                                                                                                                                      | 15	    | Rs.400	       | Rs.6,000.00     |
+| 8mm Leaniar Rob			                                                                                                                                                      |1	 | $1,500	| $1,500.00 |
 | Other                                                                                                                                                                    | 1       | Rs. 2,000.00   | Rs. 2,000.00    |  
 
 ---
 
 ### **Total Cost**  
-| **Subtotal** | Rs. 29,110.00 |  
+| **Subtotal** | Rs. 36,610.00 |  
 |--------------|---------------|  
 | **Adjustments** | Rs. 0.00    |  
-| **Final Total** | **Rs. 29,110.00** |  
+| **Final Total** | **Rs. 36,610.00** |  
 
 
 
