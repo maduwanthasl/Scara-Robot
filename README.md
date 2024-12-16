@@ -2,7 +2,7 @@
 
 # SCARA Robot (PRRR Configuration)
 
-## Overview  
+## 🌟 Overview  
 This repository contains the design, build process, and control of a 4-DoF SCARA robot. The robot features a prismatic joint and three revolute joints (PRRR configuration) and is designed for precise pick-and-place tasks. It includes a functional GUI, real-time control, and an Arduino-based system for motor control.
 
 <p align="center">
@@ -14,7 +14,7 @@ This repository contains the design, build process, and control of a 4-DoF SCARA
 
 ---
 
-## 1. Introduction  
+## 📖 1. Introduction  
 This project focuses on building and analyzing a **SCARA (PRRR)** robot arm with **4 Degrees of Freedom (DoF)**. It combines both kinematic analysis and practical implementation, including calculations for forward kinematics, inverse kinematics, and Jacobian analysis. The project culminates in a demonstration where the robot performs precise pick-and-place tasks and can **hold objects weighing up to 0.8 kg**.
 
 **This SCARA robot is developed for industrial pick-and-place applications.**  
@@ -27,7 +27,7 @@ The robot is controlled using an Arduino Uno and stepper motors through a CNC sh
 
 ---
 
-## 2. Final Outcome  
+## 🎯 2. Final Outcome  
 The SCARA robot successfully performs pick-and-place tasks with smooth motion and precise control.  
 
 [![Video Preview](https://via.placeholder.com/600x400)](https://github.com/user-attachments/assets/54862c45-d594-4989-866d-df16e7200ece)
@@ -37,7 +37,7 @@ The SCARA robot successfully performs pick-and-place tasks with smooth motion an
 ---
 
 
-## 3. Building Process  
+## 🛠️ 3. Building Process  
 
 ### **3.1 Frame**  
 In the SCARA robot building process, I first created a metal frame. I used a metal U-bar and a circular-shaped plate, soldering them as shown in Figure 3. To hold the Z-axis motor, I also soldered a plate. Afterward, I added screw holes to the grill and created two screw holes on the Z-holder plate. Additionally, I applied a coat of paint to resist metal corrosion.  
@@ -89,7 +89,7 @@ For the sliding mechanism, I attached a 3D-printed Z-plate to a **POM Wheel Pull
 
 ---
 
-## 4. Wiring  
+## 🔌 4. Wiring  
 
 <p align="center">
   <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Wiring.png" width="50%">
@@ -133,7 +133,7 @@ To test all motors, I used simple Arduino code to verify their operation. This h
 
 ---
 
-### **5. Homing Sequence**  
+## 🏠 5. Homing Sequence
 The homing sequence ensures that the robot starts from a known position:  
 
 - The prismatic joint retracts to the lowest position.  
@@ -199,7 +199,7 @@ void homing() {
 
 ---
 
-### **6. Pick and Place Application**  
+## 🧩 6. Pick and Place Application
 The robot is programmed to pick objects from a defined source and place them in a target location.  
 
 - Move to the pick position using the prismatic and revolute joints.  
@@ -213,7 +213,7 @@ In the pick-and-place application, I saved 8 waypoints starting from its home po
 
 ---
 
-## 7. GUI  
+## 🖥️ 7. GUI  
 
 <p align="center">
   <img src="https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/GUI.jpg" alt="SCARA Robot" width="50%">
@@ -229,7 +229,7 @@ A user-friendly GUI is developed using **Processing**.
 
 ---
 
-## 8. Bill of Materials  
+## 🛒 8. Bill of Materials  
 
 ---
 
@@ -285,7 +285,7 @@ A user-friendly GUI is developed using **Processing**.
 
 ---
 
-## **9. 3D Printed Parts**  
+## 🖨️ 9. 3D Printed Parts
 
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Full%20arm%20without%20wiring.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Arm%20without%20wiring.png) |
 |---|---|
@@ -306,7 +306,7 @@ These parts were printed using PLA+ material for durability and dimensional accu
 
 ---
 
-## **10. Code Explanation**  
+## 🔗 10. Code Explanation
 The robot is programmed using Arduino Uno, with future plans to transition to AVR register-based programming for enhanced control. The key programming aspects include:  
 
 - **Forward Kinematics**: Calculates the end-effector position based on joint values, ensuring precise movement to desired coordinates.  
@@ -322,7 +322,7 @@ Future iterations will focus on optimizing the code and exploring advanced micro
 
 ---
 
-## **11. Robot Details and Calculations**
+## 🎛️  11. Robot Details and Calculations
 
 ### **11.1 Link Dimensions and Specifications**  
 The SCARA robot has **4 Degrees of Freedom (DoF)** with a **PRRR joint configuration**.  
@@ -383,7 +383,7 @@ The Jacobian for the SCARA robot is given by:
 
 ---
 
-### **12. Gallery**  
+## 📶 12. Gallery  
 The gallery showcases the various stages of the robot's development, including 3D-printed parts, wiring, assembly, and testing.
 
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Robot_pic4.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Robot_pic3.png) |
@@ -397,7 +397,7 @@ The gallery showcases the various stages of the robot's development, including 3
 
 
 ---
-## 11. References  
+## 🤖 13. References  
 - SCARA Robot Design Basics: [Link](https://en.wikipedia.org/wiki/SCARA)  
 - Arduino CNC Shield Documentation: [Link](https://www.aranacorp.com/en/using-an-arduino-cnc-shield-v3)  
 - Processing Language for GUI: [Link](https://howtomechatronics.com/projects/scara-robot-how-to-build-your-own-arduino-based-robot)
