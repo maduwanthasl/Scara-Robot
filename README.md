@@ -290,7 +290,7 @@ A user-friendly GUI is developed using **Processing**.
 | ![pic 6 (2)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Full%20arm%20without%20wiring.png) | ![pic 6 (4)](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Arm%20without%20wiring.png) |
 |---|---|
 <p align="center">
-    <em>Figure 3: ARM without wiring </em>
+    <em>Figure 6: ARM without wiring </em>
 </p>
 
 The robot's design relies heavily on 3D-printed components, with over 100 hours of printing time invested to produce these parts. Each part was carefully designed to ensure functionality and precision:  
@@ -322,16 +322,75 @@ Future iterations will focus on optimizing the code and exploring advanced micro
 
 ---
 
-## 11. References  
-- SCARA Robot Design Basics: [Link](https://example.com)  
-- Arduino CNC Shield Documentation: [Link](https://example.com)  
-- Processing Language for GUI: [Link](https://example.com)  
+## **11. Robot Details and Calculations**
+
+### **11.1 Link Dimensions and Specifications**  
+The SCARA robot has **4 Degrees of Freedom (DoF)** with a **PRRR joint configuration**.  
+
+**Link Dimensions**:  
+- a1 = 160mm — Link 1 length  
+- a2 = 220mm — Link 2 length  
+- a3 = 202mm — Link 3 length  
+- d4 = 580mm — Prismatic joint length  
+
+### **11.2 Coordinate Frame Assignment**  
+The following figure illustrates the coordinate frame assignment for the SCARA PRRR robot, adhering to the Denavit-Hartenberg (DH) convention:  
+
+![Coordinate Frame Assignment](https://github.com/maduwanthasl/Scara-Robot/blob/main/Pictures/Coordinate%20Frames.jpg)  
+
+### **11.3 DH Table**  
+The table below summarizes the DH parameters for the SCARA PRRR robot:  
+
+| **Joint (i)**      | **aᵢ (mm)** | **αᵢ (°)** | **dᵢ (mm)**         | **θᵢ (°)**         |
+|---------------------|------------|------------|---------------------|--------------------|
+| 1 (Prismatic)      | 0          | 0          | d₁ (variable)       | 0                  |
+| 2 (Revolute)       | 160        | 0          | 0                   | θ₁ (variable)      |
+| 3 (Revolute)       | 160        | 0          | 0                   | θ₂ (variable)      |
+| 4 (Revolute)       | 202        | 0          | 0                   | θ₃ (variable)      |
+| 5                  | 0          | 0          | 580                  | 0                  |
+
+
+### **11.4Forward Kinematics**
+
+Forward kinematics calculates the position and orientation of the end-effector based on the joint angles and link lengths. Using Denavit-Hartenberg (DH) parameters, we define the transformation matrix for each joint. The transformation matrix is:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/55f509af-13c3-474f-8a48-537ff5206caa" alt="SCARA Robot" width="50%">
+</p>
+By multiplying the individual transformation matrices from base to end-effector, we get the final transformation matrix T . This matrix provides the position (x, y, z) and the orientation of the end-effector. The angles θ1, θ2, and θ3 are used to determine the robot’s orientation in space.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88b55576-af50-4bdb-9f5c-051f1642d028" alt="SCARA Robot" width="50%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ec2ee10e-e7f9-4a29-92f0-bf62982926e4" alt="SCARA Robot" width="50%">
+</p>
+
+The Jacobian is derived using the partial derivatives of the forward kinematics equations.  
+
+### **11.5Manipulator Jacobian Matrix**
+The Jacobian matrix relates joint velocities to end-effector velocities. It is essential for analyzing the robot’s motion and controlling its speed and acceleration. For a PRRR manipulator, the Jacobianmatrix has two parts:
+
+- Linear Velocity: The part of the Jacobian that maps joint velocities to linear velocities of the end-effector. It involves the cross product between the joint axes and the position vector.
+- Angular Velocity: The part that maps joint velocities to angular velocities.
+
+The Jacobian for the SCARA robot is given by:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d17c3fa6-750b-44d6-ae88-0843819cb8f3" alt="SCARA Robot" width="50%">
+</p>
 
 ---
 
+
+## 11. References  
+- SCARA Robot Design Basics: [Link](https://en.wikipedia.org/wiki/SCARA)  
+- Arduino CNC Shield Documentation: [Link](https://www.aranacorp.com/en/using-an-arduino-cnc-shield-v3)  
+- Processing Language for GUI: [Link](https://howtomechatronics.com/projects/scara-robot-how-to-build-your-own-arduino-based-robot)
+- Scara Robot 3D Printed Parts: [Link](https://github.com/IVProjects/Engineering_Projects/tree/main/ProjectFiles/SCARA%20Robot)
+  
+---
+
 Feel free to raise issues or contribute improvements to this project!
-
-
-[image](
-https://github.com/user-attachments/assets/e73a0e8b-2da9-4d07-ae71-0554e8a4b6c6)
 
