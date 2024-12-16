@@ -303,16 +303,19 @@ These parts were printed using PLA+ material for durability and dimensional accu
 
 ---
 
-## 10. Code Explanation  
-The robot is programmed in Arduino, with the following key functions:  
-- **Forward Kinematics**: Calculate the end-effector position based on joint values.  
-- **Inverse Kinematics**: Determine joint angles for a given position.  
-- **Control Algorithms**: Stepper motor control and speed adjustment.  
-- **Gripper Control**: Open/close the servo-controlled gripper.  
+## **10. Code Explanation**  
+The robot is programmed using Arduino Uno, with future plans to transition to AVR register-based programming for enhanced control. The key programming aspects include:  
 
-The `code` folder contains:  
-- `main.ino`: The primary Arduino sketch.  
-- `functions.h`: Helper functions for kinematics and control.  
+- **Forward Kinematics**: Calculates the end-effector position based on joint values, ensuring precise movement to desired coordinates.  
+- **Inverse Kinematics**: Determines joint angles for a given position, enabling accurate trajectory planning for the robot arm.  
+- **DH Table and Jacobian Matrix**: The Denavit-Hartenberg (DH) parameters were derived to construct the transformation matrix, while the manipulator Jacobian was calculated to analyze joint velocities and forces.  
+- **Control Algorithms**: Implements control for stepper motors, including speed adjustments and precise motion handling.  
+- **Gripper Control**: Manages the servo-controlled gripper to open and close efficiently based on commands.  
+
+To facilitate communication between the computer and the Arduino Uno, serial communication was established at a baud rate of 115200. This allows for easy command input and real-time control without needing to manually alter the code for each operation.  
+
+Future iterations will focus on optimizing the code and exploring advanced microcontroller programming techniques for better performance.  
+ 
 
 ---
 
